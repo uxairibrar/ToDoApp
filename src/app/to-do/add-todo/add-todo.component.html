@@ -1,0 +1,15 @@
+
+
+
+<div class="form-froup row">
+
+    <label class="col-sm-2 col-form-label">Enter ToDo</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="text"
+        placeholder="Enter ToDo">
+    </div>
+</div>
+<br>
+<button (click)="addToDo()"  class="btn btn-primary" style="width: 100%;">
+    Add
+</button>

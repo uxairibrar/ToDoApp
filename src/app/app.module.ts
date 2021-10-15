@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 
 import { SharedService } from './shared.service';
 import {HttpClientModule} from '@angular/common/http';
-import { ToDoComponent } from './to-do/to-do.component';
-import { ShowTodoComponent } from './to-do/show-todo/show-todo.component';
-import { AddTodoComponent } from './to-do/add-todo/add-todo.component';
+import { ToDoComponent } from './shared/to-do/to-do.component';
+import { ShowTodoComponent } from './shared/to-do/show-todo/show-todo.component';
+import { AddTodoComponent } from './shared/to-do/add-todo/add-todo.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 
